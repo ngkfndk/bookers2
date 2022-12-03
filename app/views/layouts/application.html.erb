@@ -36,9 +36,7 @@
           <a class="navbar-brand" href="/">
             <span>Bookers</span>
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar
-          NavDronpdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle
-          navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDronpdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Togglenavigation">
             <i class="fas fa-bars"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -100,6 +98,7 @@
       </nav>
     </header>
     <main>
+      <%= flash[:notice] %>
       <%= yield %>
     </main>
     <footer>
